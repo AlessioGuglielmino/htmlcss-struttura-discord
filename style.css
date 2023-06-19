@@ -44,8 +44,15 @@ header {
 }
 .container {
   min-width: 1180px;
-  min-height: 300px;
+  min-height: 400px;
+  justify-content: center;
 }
 .blu {
   background-color: blue;
+}
+
+.img-rosa {
+  background-color: pink;
+  height: 300px;
+  width: 600px;
 }
