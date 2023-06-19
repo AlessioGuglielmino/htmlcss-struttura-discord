@@ -38,6 +38,7 @@ header {
   width: 25%;
   text-align: end;
 }
+/* CLASSI DI POSIZIONE */
 .align-itemscenter {
   align-items: center;
 }
@@ -48,11 +49,19 @@ header {
 .justify-center {
   justify-content: center;
 }
+/* CLASSI CONTENITORI */
 .container {
   min-width: 1180px;
   min-height: 400px;
   justify-content: center;
 }
+.container-big {
+  min-width: 1180px;
+  min-height: 800px;
+  justify-content: center;
+}
+
+/* CLASSI BACKGROUND */
 .blu {
   background-color: blue;
 }
@@ -65,7 +74,7 @@ header {
   height: 300px;
   width: 600px;
 }
-
+/* CLASSI BOX */
 .box-1 {
   width: 500px;
   height: 300px;
@@ -76,4 +85,10 @@ header {
   width: 200px;
   height: 300px;
   background-color: pink;
+}
+
+.box-big {
+  background-color: green;
+  width: 700px;
+  height: 600px;
 }
