@@ -11,9 +11,6 @@ header {
   justify-content: center;
 }
 
-.container-small {
-  min-width: 800px;
-}
 .flex {
   display: flex;
 }
@@ -55,10 +52,17 @@ header {
   min-height: 400px;
   justify-content: center;
 }
+.container-small {
+  min-width: 800px;
+}
 .container-big {
   min-width: 1180px;
   min-height: 800px;
   justify-content: center;
+}
+.container-footer {
+  min-height: 80px;
+  min-width: 1180px;
 }
 
 /* CLASSI BACKGROUND */
@@ -82,6 +86,9 @@ header {
 }
 .acqua {
   background-color: rgb(109, 184, 216);
+}
+.cyan {
+  background-color: darkcyan;
 }
 /* CLASSI BOX */
 .box-1 {
@@ -127,4 +134,22 @@ header {
 .col-4 {
   width: 25%;
   height: 100%;
+}
+
+.logo-2 {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+.bottone {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+.footer {
+  width: 700px;
+  min-height: 80px;
+  margin-top: 20px;
 }
