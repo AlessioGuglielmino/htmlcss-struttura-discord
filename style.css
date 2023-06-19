@@ -18,11 +18,14 @@ header {
   display: flex;
 }
 /* classi di DEBUG */
+.debug {
+  border: 2px dotted black;
+}
+
 .logo,
 .link,
 .login {
   background-color: goldenrod;
-  border: 3px dotted black;
 }
 .logo {
   width: 25%;
@@ -38,9 +41,12 @@ header {
 .align-itemscenter {
   align-items: center;
 }
-
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
 }
 .container {
   min-width: 1180px;
@@ -50,9 +56,24 @@ header {
 .blu {
   background-color: blue;
 }
+.gray {
+  background-color: lightgray;
+}
 
 .img-rosa {
   background-color: pink;
   height: 300px;
   width: 600px;
+}
+
+.box-1 {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(0, 166, 255);
+}
+
+.box-2 {
+  width: 200px;
+  height: 300px;
+  background-color: pink;
 }
