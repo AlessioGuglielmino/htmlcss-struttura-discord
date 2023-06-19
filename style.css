@@ -3,3 +3,49 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  min-height: 80px;
+  min-width: 1180px;
+  background-color: rgb(0, 255, 255);
+  justify-content: center;
+}
+
+.container-small {
+  min-width: 800px;
+}
+.flex {
+  display: flex;
+}
+/* classi di DEBUG */
+.logo,
+.link,
+.login {
+  background-color: goldenrod;
+  border: 3px dotted black;
+}
+.logo {
+  width: 25%;
+}
+.link {
+  width: 50%;
+  text-align: center;
+}
+.login {
+  width: 25%;
+  text-align: end;
+}
+.align-itemscenter {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.container {
+  min-width: 1180px;
+  min-height: 300px;
+}
+.blu {
+  background-color: blue;
+}
