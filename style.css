@@ -53,7 +53,7 @@ header {
   justify-content: center;
 }
 .container-small {
-  min-width: 800px;
+  min-width: 700px;
 }
 .container-big {
   min-width: 1180px;
